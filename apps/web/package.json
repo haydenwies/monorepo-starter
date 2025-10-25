@@ -1,0 +1,24 @@
+{
+    "name": "@repo/web",
+    "private": true,
+    "scripts": {
+        "typecheck": "tsc --noEmit",
+        "dev": "next dev --turbopack",
+        "build": "next build --turbopack",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@repo/ui": "workspace:*",
+        "next": "15.5.6",
+        "react": "catalog:",
+        "react-dom": "catalog:"
+    },
+    "devDependencies": {
+        "@repo/tailwind": "workspace:*",
+        "@repo/typescript": "workspace:*",
+        "@types/node": "^20",
+        "@types/react": "catalog:",
+        "@types/react-dom": "catalog:",
+        "typescript": "catalog:"
+    }
+}

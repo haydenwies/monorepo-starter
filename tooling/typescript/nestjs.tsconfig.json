@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "./base.tsconfig",
+    "compilerOptions": {
+        "strictBindCallApply": false,
+
+        "removeComments": true,
+
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "@repo/backend",
+    "private": true,
+    "scripts": {
+        "typecheck": "tsc --noEmit",
+        "dev": "nest start --watch",
+        "build": "nest build",
+        "start": "node dist/main"
+    },
+    "dependencies": {
+        "@nestjs/common": "^11.0.1",
+        "@nestjs/core": "^11.0.1",
+        "@nestjs/platform-express": "^11.0.1",
+        "reflect-metadata": "^0.2.2",
+        "rxjs": "^7.8.1"
+    },
+    "devDependencies": {
+        "@nestjs/cli": "^11.0.0",
+        "@nestjs/schematics": "^11.0.0",
+        "@repo/typescript": "workspace:*",
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.10.7",
+        "typescript": "catalog:"
+    }
+}
