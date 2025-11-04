@@ -1,5 +1,5 @@
 {
-    "name": "marketing",
+    "name": "@repo/marketing",
     "private": true,
     "scripts": {
         "typecheck": "tsc --noEmit",
@@ -8,11 +8,12 @@
         "start": "next start"
     },
     "dependencies": {
+        "next": "16.0.1",
         "react": "catalog:",
-        "react-dom": "catalog:",
-        "next": "16.0.1"
+        "react-dom": "catalog:"
     },
     "devDependencies": {
+        "@repo/tailwind": "workspace:*",
         "@tailwindcss/postcss": "^4",
         "@types/node": "^20",
         "@types/react": "catalog:",

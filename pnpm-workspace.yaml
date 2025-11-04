@@ -10,7 +10,9 @@ catalog:
   "react-dom": "^19.1.0"
   "typescript": "^5.9.2"
     
+# NOTE These don't work here - they are only reconized in .npmrc
+# This could be because of the pnpm version
+# Temporary fix is to add workspace packages with --workspace flag
 recursiveInstall: true
-
 linkWorkspacePackages: true
 preferWorkspacePackages: true

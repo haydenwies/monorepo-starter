@@ -6,7 +6,8 @@ A simple monorepo using [Turborepo](https://turborepo.com/).
 
 **Apps**
 
-- `web` using [Nest.js](https://nextjs.org/)
+- `web` using [Vite + React](https://vite.dev/)
+- `marketing` using [Next.js](https://nextjs.org/)
 - `backend` using [NestJS](https://nestjs.com/)
 
 **Packages**
