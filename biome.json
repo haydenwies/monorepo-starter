@@ -12,15 +12,14 @@
     "formatter": {
         "enabled": true,
         "formatWithErrors": true,
-
         "attributePosition": "multiline",
         "bracketSameLine": false,
         "bracketSpacing": true,
         "expand": "auto",
         "indentStyle": "space",
         "indentWidth": 4,
-        "lineWidth": 120,
-        "lineEnding": "lf"
+        "lineEnding": "lf",
+        "lineWidth": 120
     },
     "linter": {
         "enabled": true,
@@ -44,7 +43,7 @@
         "actions": {
             "source": {
                 "organizeImports": "on",
-                "useSortedAttributes": "on"
+                "useSortedAttributes": "off"
             }
         }
     },
@@ -53,7 +52,6 @@
             "quoteStyle": "double",
             "semicolons": "asNeeded",
             "trailingCommas": "none"
-        },
-        "assist": {}
+        }
     }
 }

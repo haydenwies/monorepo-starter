@@ -1,4 +1,0 @@
-@import "@repo/tailwind/globals.css";
-
-/* NOTE Temp fix - required for packages/ui styles to be applied to components */
-@source "../../../../packages/ui/dist/**/*.{js,jsx}";

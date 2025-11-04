@@ -3,8 +3,8 @@
     "private": true,
     "scripts": {
         "typecheck": "tsc --noEmit",
-        "dev": "nest start --watch",
         "build": "nest build",
+        "dev": "nest start --watch",
         "start": "node dist/main"
     },
     "dependencies": {
@@ -17,7 +17,6 @@
     "devDependencies": {
         "@nestjs/cli": "^11.0.0",
         "@nestjs/schematics": "^11.0.0",
-        "@repo/typescript": "workspace:*",
         "@types/express": "^5.0.0",
         "@types/node": "^22.10.7",
         "typescript": "catalog:"

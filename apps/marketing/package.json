@@ -1,0 +1,22 @@
+{
+    "name": "marketing",
+    "private": true,
+    "scripts": {
+        "typecheck": "tsc --noEmit",
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "react": "catalog:",
+        "react-dom": "catalog:",
+        "next": "16.0.1"
+    },
+    "devDependencies": {
+        "@tailwindcss/postcss": "^4",
+        "@types/node": "^20",
+        "@types/react": "catalog:",
+        "@types/react-dom": "catalog:",
+        "typescript": "catalog:"
+    }
+}
