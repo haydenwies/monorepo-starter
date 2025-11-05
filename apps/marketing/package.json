@@ -4,9 +4,12 @@
     "type": "module",
     "scripts": {
         "typecheck": "tsc --noEmit",
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start"
+        "dev": "bunx --bun next dev",
+        "build": "bunx --bun next build",
+        "start": "bunx --bun next start"
+    },
+    "engines": {
+        "node": "22.14.0"
     },
     "dependencies": {
         "next": "16.0.1",
@@ -16,7 +19,8 @@
     "devDependencies": {
         "@repo/tailwind": "workspace:*",
         "@tailwindcss/postcss": "^4",
-        "@types/node": "^20",
+        "@types/bun": "catalog:",
+        "@types/node": "catalog:",
         "@types/react": "catalog:",
         "@types/react-dom": "catalog:",
         "typescript": "catalog:"

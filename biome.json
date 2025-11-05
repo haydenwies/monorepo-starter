@@ -58,5 +58,11 @@
         "parser": {
             "tailwindDirectives": true
         }
+    },
+    "json": {
+        "parser": {
+            "allowComments": true,
+            "allowTrailingCommas": false
+        }
     }
 }

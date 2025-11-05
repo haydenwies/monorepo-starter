@@ -1,23 +1,26 @@
 {
     "compilerOptions": {
-        "target": "ES2017",
-        "lib": ["dom", "dom.iterable", "esnext"],
-        "allowJs": true,
-        "skipLibCheck": true,
-        "strict": true,
-        "noEmit": true,
-        "esModuleInterop": true,
+        /* Environment */
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "target": "esnext",
         "module": "esnext",
-        "moduleResolution": "bundler",
-        "resolveJsonModule": true,
-        "isolatedModules": true,
         "jsx": "react-jsx",
+        "allowJs": true,
+
+        /* Bundler */
+        "moduleResolution": "bundler",
+        "noEmit": true,
+
+        /* Best practices */
+        "strict": true,
+        "skipLibCheck": true,
+
+        /* TODO - handle leftover props from original version of file */
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
         "incremental": true,
-        "plugins": [
-            {
-                "name": "next"
-            }
-        ],
+        "isolatedModules": true,
+        "plugins": [{ "name": "next" }],
         "paths": {
             "~/*": ["./src/*"]
         }

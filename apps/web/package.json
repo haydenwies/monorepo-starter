@@ -4,16 +4,19 @@
     "type": "module",
     "scripts": {
         "typecheck": "tsc --noEmit",
-        "dev": "vite",
-        "build": "tsc -b && vite build",
-        "preview": "vite preview"
+        "dev": "bunx --bun vite",
+        "build": "bun run typecheck && bunx --bun vite build",
+        "preview": "bunx --bun vite preview"
     },
     "dependencies": {
+        "@repo/ui": "workspace:*",
         "react": "catalog:",
         "react-dom": "catalog:"
     },
     "devDependencies": {
-        "@types/node": "^24.6.0",
+        "@repo/tailwind": "workspace:*",
+        "@tailwindcss/vite": "^4.1.16",
+        "@types/bun": "catalog:",
         "@types/react": "catalog:",
         "@types/react-dom": "catalog:",
         "@vitejs/plugin-react": "^5.0.4",
