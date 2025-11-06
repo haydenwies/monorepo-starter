@@ -2,7 +2,9 @@
     "$schema": "https://turborepo.com/schema.json",
     "ui": "tui",
     "tasks": {
-        "//#format": {},
+        "//#format": {
+            "cache": false
+        },
         "//#lint": {
             "cache": false
         },

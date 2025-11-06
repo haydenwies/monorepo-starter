@@ -22,5 +22,5 @@ A simple monorepo using [Turborepo](https://turborepo.com/).
 **Other**
 
 - Linting and formatting is done with [Biome](https://biomejs.dev/)
-- [Bun](https://bun.com/) is used as the package manager and runtime (the runtime can be changed to Node.js by removing bunx --bun from any script)
+- [Bun](https://bun.com/) is used as the package manager and runtime (the runtime can be changed to Node.js by removing `bunx --bun` from any script)
 - All apps and scripts are ECMAScript Modules and are easily compatible with one another.

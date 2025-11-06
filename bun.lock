@@ -46,7 +46,6 @@
       "name": "@repo/web",
       "dependencies": {
         "@repo/ui": "workspace:*",
-        "@types/node": "^24.10.0",
         "react": "catalog:",
         "react-dom": "catalog:",
       },
