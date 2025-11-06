@@ -1,6 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
-    "extends": "@repo/typescript/vite.tsconfig",
+    "extends": "@repo/typescript/nextjs.tsconfig",
     "compilerOptions": {
         /* Build */
         "tsBuildInfoFile": "node_modules/.tmp/tsconfig.tsbuildinfo",
@@ -11,6 +11,6 @@
             "~/*": ["./src/*"]
         }
     },
-    "include": ["**/*.ts", "**/*.tsx"],
-    "exclude": ["node_modules", "dist", ".turbo"]
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".next/dev/types/**/*.ts", "**/*.mts"],
+    "exclude": ["node_modules", ".turbo"]
 }

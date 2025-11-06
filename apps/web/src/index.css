@@ -1,0 +1,3 @@
+@import "@repo/tailwind/globals.css";
+
+@source "../../../packages/ui/dist/components/*.{js,jsx}";

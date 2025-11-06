@@ -1,27 +1,25 @@
 {
-    "name": "@repo/web",
+    "name": "@repo/marketing",
     "private": true,
     "type": "module",
     "scripts": {
         "typecheck": "tsc --noEmit",
-        "dev": "bunx --bun vite",
-        "build": "bun run typecheck && bunx --bun vite build",
-        "preview": "bunx --bun vite preview"
+        "dev": "bunx --bun next dev",
+        "build": "bunx --bun next build",
+        "start": "bunx --bun next start"
     },
     "dependencies": {
-        "@repo/ui": "workspace:*",
+        "next": "16.0.1",
         "react": "catalog:",
         "react-dom": "catalog:"
     },
     "devDependencies": {
         "@repo/tailwind": "workspace:*",
         "@repo/typescript": "workspace:*",
-        "@tailwindcss/vite": "^4.1.16",
+        "@tailwindcss/postcss": "^4",
+        "@types/node": "catalog:",
         "@types/react": "catalog:",
         "@types/react-dom": "catalog:",
-        "@vitejs/plugin-react": "^5.0.4",
-        "typescript": "catalog:",
-        "vite": "^7.1.7",
-        "vite-tsconfig-paths": "^5.1.4"
+        "typescript": "catalog:"
     }
 }

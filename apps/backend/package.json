@@ -1,11 +1,12 @@
 {
     "name": "@repo/backend",
     "private": true,
+    "type": "module",
     "scripts": {
         "typecheck": "tsc --noEmit",
-        "dev": "nest start --watch",
-        "build": "nest build",
-        "start": "node dist/main"
+        "build": "tsc",
+        "dev": "bun --watch src/main.ts",
+        "start": "bun dist/main.js"
     },
     "dependencies": {
         "@nestjs/common": "^11.0.1",
@@ -15,11 +16,10 @@
         "rxjs": "^7.8.1"
     },
     "devDependencies": {
-        "@nestjs/cli": "^11.0.0",
-        "@nestjs/schematics": "^11.0.0",
         "@repo/typescript": "workspace:*",
+        "@types/bun": "catalog:",
         "@types/express": "^5.0.0",
-        "@types/node": "^22.10.7",
+        "@types/node": "catalog:",
         "typescript": "catalog:"
     }
 }

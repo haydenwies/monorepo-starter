@@ -1,0 +1,4 @@
+@import "@repo/tailwind/globals.css";
+
+/* NOTE Temporary fix to apply styling to @repo/ui components */
+@source "../../../../packages/ui/src/components/*.{ts,tsx}";

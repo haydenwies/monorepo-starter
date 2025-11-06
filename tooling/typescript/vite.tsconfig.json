@@ -7,9 +7,6 @@
         "jsx": "react-jsx",
 
         /* Bundler */
-        "noEmit": true,
-
-        /* Next.js specific */
-        "plugins": [{ "name": "next" }]
+        "noEmit": true
     }
 }

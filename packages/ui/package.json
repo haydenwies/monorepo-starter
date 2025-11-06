@@ -1,9 +1,10 @@
 {
     "name": "@repo/ui",
     "private": true,
+    "type": "module",
     "scripts": {
         "typecheck": "tsc --noEmit",
-        "build": "tsc"
+        "build": "bun run typecheck && tsc"
     },
     "dependencies": {
         "@radix-ui/react-slot": "^1.2.3",
