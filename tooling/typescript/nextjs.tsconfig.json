@@ -9,6 +9,9 @@
         /* Bundler */
         "noEmit": true,
 
+        /* Emit */
+        "tsBuildInfoFile": "node_modules/.tmp/tsconfig.tsbuildinfo",
+
         /* Next.js specific */
         "plugins": [{ "name": "next" }]
     }

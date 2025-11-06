@@ -7,6 +7,9 @@
         "jsx": "react-jsx",
 
         /* Bundler */
-        "noEmit": true
+        "noEmit": true,
+
+        /* Emit */
+        "tsBuildInfoFile": "node_modules/.tmp/tsconfig.tsbuildinfo"
     }
 }
