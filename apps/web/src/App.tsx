@@ -13,7 +13,7 @@ const App = () => {
     }
 
     return (
-        <div className="container h-dvh mx-auto flex flex-col items-center justify-center gap-2 bg-blue-500">
+        <div className="container h-dvh mx-auto flex flex-col items-center justify-center gap-2">
             <Button onClick={handleTalkToServer}>Talk to server</Button>
             {serverMessage && (
                 <p>

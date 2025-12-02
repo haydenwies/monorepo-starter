@@ -9,14 +9,14 @@
         "start": "bunx --bun next start"
     },
     "dependencies": {
-        "next": "16.0.1",
+        "next": "^16.0.6",
         "react": "catalog:",
         "react-dom": "catalog:"
     },
     "devDependencies": {
         "@repo/tailwind": "workspace:*",
         "@repo/typescript": "workspace:*",
-        "@tailwindcss/postcss": "^4",
+        "@tailwindcss/postcss": "^4.1.17",
         "@types/node": "catalog:",
         "@types/react": "catalog:",
         "@types/react-dom": "catalog:",

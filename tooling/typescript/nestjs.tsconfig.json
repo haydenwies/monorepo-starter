@@ -5,6 +5,8 @@
         "declaration": true,
         "declarationMap": true,
         "outDir": "${configDir}/dist",
+        "noEmit": false,
+        "incremental": false,
         "allowSyntheticDefaultImports": true,
         "emitDecoratorMetadata": true,
         "erasableSyntaxOnly": false, // Interferes with decorators
