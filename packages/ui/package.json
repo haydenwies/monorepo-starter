@@ -3,11 +3,10 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "typecheck": "tsc --noEmit",
-        "build": "bun run typecheck && tsc"
+        "typecheck": "tsc --noEmit"
     },
     "dependencies": {
-        "@radix-ui/react-slot": "^1.2.3",
+        "@radix-ui/react-slot": "^1.2.4",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "tailwind-merge": "^3.3.1"
@@ -23,17 +22,8 @@
         "react-dom": "catalog:"
     },
     "exports": {
-        "./components/*": {
-            "types": "./src/components/*.tsx",
-            "default": "./dist/components/*.js"
-        },
-        "./hooks/*": {
-            "types": "./src/hooks/*.ts",
-            "default": "./dist/hooks/*.js"
-        },
-        "./lib/*": {
-            "types": "./src/lib/*.ts",
-            "default": "./dist/lib/*.js"
-        }
+        "./components/*": "./src/components/*.tsx",
+        "./hooks/*": "./src/hooks/*.ts",
+        "./lib/*": "./src/lib/*.ts"
     }
 }

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
-    "extends": "@repo/typescript/reactlib.tsconfig",
+    "extends": "@repo/typescript/base.tsconfig",
     "include": ["src"],
     "exclude": [".cache", ".turbo", "node_modules"]
 }

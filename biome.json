@@ -52,6 +52,9 @@
             "quoteStyle": "double",
             "semicolons": "asNeeded",
             "trailingCommas": "none"
+        },
+        "parser": {
+            "unsafeParameterDecoratorsEnabled": true
         }
     },
     "css": {

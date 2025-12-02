@@ -23,6 +23,7 @@ dist
 dist-ssr
 .esbuild
 *.tsbuildinfo
+.cache
 
 # Testing
 coverage

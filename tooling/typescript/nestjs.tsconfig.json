@@ -1,16 +1,14 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
-    "extends": ["./base.tsconfig", "./compiled-package.tsconfig"],
+    "extends": "./base.tsconfig",
     "compilerOptions": {
-        /* Bundler */
-        "erasableSyntaxOnly": false, // Interferes with decorators
-
-        /* Strictness */
-        "strictBindCallApply": false,
-
-        /* NestJS specific */
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "${configDir}/dist",
+        "allowSyntheticDefaultImports": true,
         "emitDecoratorMetadata": true,
+        "erasableSyntaxOnly": false, // Interferes with decorators
         "experimentalDecorators": true,
-        "allowSyntheticDefaultImports": true
+        "strictBindCallApply": false
     }
 }

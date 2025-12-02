@@ -1,0 +1,15 @@
+{
+    "name": "@repo/example",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@repo/typescript": "workspace:*",
+        "typescript": "catalog:"
+    },
+    "exports": {
+        "./ui": "./src/index.ts"
+    }
+}
